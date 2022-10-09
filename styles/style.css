@@ -1,3 +1,120 @@
 html {
   font-family: sans-serif;
 }
+.navbar li {
+  display: inline;
+  margin: 10px;
+}
+
+.grid-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-item {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.box-outer {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 250px;
+  height: 150px;
+  margin: 10px;
+  padding: 10px;
+  background-color: paleturquoise;
+}
+
+.border-none {
+  border: 0px solid black;
+}
+
+.border-mid {
+  border: 5px solid black;
+}
+
+.border-thick {
+  border: 10px solid black;
+}
+
+.padding-0px {
+  padding: 0px;
+}
+.padding-10px {
+  padding: 10px;
+}
+.padding-20px {
+  padding: 20px;
+}
+
+.margin-0px {
+  margin: 0px;
+  padding: 0px;
+}
+
+.margin-10px {
+  margin: 0px;
+  padding: 0px;
+}
+.margin-20px {
+  margin: 0px;
+  padding: 0px;
+}
+
+.border-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+#different-font {
+  margin: 100px;
+  border: 2px;
+  border-color: red;
+}
+
+#positioning {
+  margin-bottom: 60px; 
+}
+
+.outterbox {
+  background-color: blanchedalmond;
+  border: 2px solid black ;
+  width: 1000px;
+  height: 1200px;
+}
+
+#sticky-pos{
+  position: sticky;
+  top: 0px;
+  background-color: cyan;
+}
+
+#rel-pos {
+  position: relative;
+  background-color: yellow;
+  top: 10px;
+  left: 100px;
+}
+
+#abs-pos {
+  position: absolute;
+  margin-top: 100px;
+  left: 100px;
+}
+
+.footer {
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  bottom: 0px;
+  background-color: burlywood;
+  text-align: center;
+  justify-content: center;
+}

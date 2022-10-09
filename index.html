@@ -16,35 +16,132 @@
 
   <nav id="navbar" class="navbar">
     <ul>
-      <li><a class="" href="./index.html#">Main</a></li>
-      <li><a class="" href="./index.html#seo">SEO</a></li>
-      <li><a class="" href="./index.html#">Grid</a></li>
-      <li><a class="" href="./index.html#">Gallery</a></li>
-      <li><a class="" href="./index.html#">Different font</a></li>
-      <li><a class="" href="./index.html#">Positioning</a></li>
+      <li><a class="" href="./index.html">Main</a></li>
+      <li><a class="" href="./index.html#grid">Grid</a></li>
+      <li><a class="" href="./index.html#box-model-gallery">Gallery</a></li>
+      <li><a class="" href="./index.html#diffrerent-font">Different font</a></li>
+      <li><a class="" href="./index.html#positioning">Positioning</a></li>
     </ul>
     <i class="bi bi-list mobile-nav-toggle"></i>
   </nav><!-- .navbar -->
 
-  <section id="seo">
+  <h2> Ten useful tags:</h2>
+  <ul>
+    <li>div</li>
+    <li>span</li>
+    <li>section</li>
+    <li>nav</li>
+    <li>img</li>
+    <li>p</li>
+    <li>a</li>
+    <li>ul</li>
+    <li>li</li>
+    <li>body</li>
+  </ul>
 
-  </section>
+  <h2>Some important header tags used in SEO(TODO)</h2>
+  <ul>
+    <li>title</li>
+    <li>meta</li>
+  </ul>
+
+
 
   <section id="grid">
+    <h2> The 3x3 grid</h2>
+    <div class="gird-whole">
+      <span class="grid-row">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+      </span>
+      <span class="grid-row">
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+      </span>
+      <span class="grid-row">
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+      </span>
+    </div>
+
 
   </section>
 
-  <section id="gallery">
+  <section id="box-model-gallery">
+    <h2>The Box Model Gallery</h2>
+    <h3>The following three boxes uses border 0px, 5px and 10px.</h3>
+    <div class="border-row">
+      <div class="box border-none"></div>
+      <div class="box border-mid"></div>
+      <div class="box border-thick"></div>
+    </div>
+
+    <h3>The following three boxes uses padding 0px, 10px and 20px.</h3>
+    <div class="border-row">
+      <div class="box padding-0px"></div>
+      <div class="box padding-10px"></div>
+      <div class="box padding-20px"></div>
+    </div>
+
+    <h3>The following three boxes uses margin 0px, 10px and 20px.</h3>
+    <div class="border-row">
+      <div class="box margin-0px border-mid"></div>
+      <div class="box margin-10px border-mid"></div>
+      <div class="box margin-20px border-mid"></div>
+    </div>
 
   </section>
 
   <section id="different-font">
+    <h2>Different font</h2>
+    <p>The following 6 lines of text uses font size: 20px, 40px, 50px, 1rem, 2rem and 4rem.</p>
+    <p>px is a absolute length units and it means pixel.
+      Using px gives you more control on how to display content, and it prevents the problem of text clipped
+      when using relative size font.
+    </p>
+    <p>rem stands for the font size of the root element. It provides the ability to scale
+      text well for differnt type of diplay devices. </p>
+    <ul>
+      <li style="font-size: 20px;">A quick fox jumps over a lazy dog.</li>
+      <li style="font-size: 40px;">A quick fox jumps over a lazy dog.</li>
+      <li style="font-size: 50px;">A quick fox jumps over a lazy dog.</li>
+      <li style="font-size: 1rem;">A quick fox jumps over a lazy dog.</li>
+      <li style="font-size: 2rem;">A quick fox jumps over a lazy dog.</li>
+      <li style="font-size: 4rem;">A quick fox jumps over a lazy dog.</li>
+    </ul>
 
   </section>
 
   <section id="positioning">
+    <h2>4 Positioning Options</h2>
 
+    <div class="outterbox">
+      <div id="sticky-pos">
+        This line should be sticky!
+      </div>
+
+      <div id="rel-pos">
+        [Relative Position] A quick fox jumps over the lazy dog
+      </div>
+
+      <div id="abs-pos">
+        [Absloute Position] A quick fox jumps over the lazy dog
+      </div>
+    </div>
+
+
+
+
+
+    <p>The footer uses 'fixed'. </p>
   </section>
+
+  <div class="footer">
+    <p>Copyright &copy; Tianchang Wang</p>
+  </div>
 
   <script src="scripts/main.js"></script>
 </body>
